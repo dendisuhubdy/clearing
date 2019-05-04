@@ -24,5 +24,5 @@ if __name__ == "__main__":
     rpc_user = str(sys.argv[1])
     rpc_password = str(sys.argv[2])
     rpc_host = str(sys.argv[3])
-    rpc_password = str(sys.argv[4])
-    main(rpc_user, rpc_password, rpc_host, rpc_password)
+    rpc_port = str(sys.argv[4])
+    main(rpc_user, rpc_password, rpc_host, rpc_port)
